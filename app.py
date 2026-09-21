@@ -33,7 +33,7 @@ if "messages" not in st.session_state:
     st.session_state.messages = []
 
 if "chat" not in st.session_state:
-    st.session_state.chat = client.chats.create(model="gemini-2.5-flash")
+    st.session_state.chat = client.chats.create(model="gemini-3.6-flash")
 
 # 5. عرض الرسائل السابقة
 for msg in st.session_state.messages:
